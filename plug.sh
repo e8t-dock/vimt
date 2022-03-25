@@ -2,7 +2,7 @@
 
 # MVIM_HOME=$HQ/config/minivim
 
-MVIM_HOME=$DOWN/minivim
+MVIM_HOME=$PWD
 MVIM_PACK=$MVIM_HOME/runtime/pack
 
 # Zsh
@@ -32,7 +32,8 @@ plugins=("tpope/vim-sensible \
   jaredgorski/SpaceCamp \
   jonathanfilip/vim-lucius \
   vimwiki/vimwiki \
-  jiangmiao/auto-pairs")
+  jiangmiao/auto-pairs \
+  honza/vim-snippets")
 
   # davidhalter/jedi-vim \
   # tweekmonster/impsort.vim \
@@ -54,7 +55,7 @@ down() {
 install() {
   REPO_ID=$1
   # URL="https://github.com/"$1".git"
-  URL="https://hub.fastgit.org/"$1".git"
+  URL="https://hub.fastgit.xyz/"$1".git"
   ORG_ID=${REPO_ID%%\/*}
   PACK_ID=`expr "$REPO_ID" : '.*\/\(.*\)'`
   DIST=$MVIM_PACK/$ORG_ID/start/$PACK_ID
