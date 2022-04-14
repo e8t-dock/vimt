@@ -1,0 +1,39 @@
+{
+  "typescript.suggestionActions.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "css.enable": true,
+  "css.lint.unknownAtRules": "ignore",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    /* "dart", */
+    /* "html", */
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "css",
+    "elixir",
+    /* "markdown" */
+    "python"
+  ],
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "coc.preferences.diagnostic.virtualText": true,
+  "html.format.enable": false,
+  "html.autoClosingTags": true,
+  "typescript.suggest.autoImports": true,
+  "elixirLS.dialyzerEnabled": false,
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+  "workspace.ignoredFiletypes": ["markdown", "log", "txt", "help", "asm"]
+}
+
