@@ -18,7 +18,7 @@ set pp+=$VIM/runtime
 
 " noremap <c-r> :!dotnet fsi %<cr>
 
-exec "so " . $VIM . "/xubuntu.vim"
+exec "so " . $VIM . "/main.vim"
 
 set bg=dark
 colorscheme lucius
