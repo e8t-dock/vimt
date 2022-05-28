@@ -1,4 +1,4 @@
-" Playgound
+" Playground
 
 set nu
 

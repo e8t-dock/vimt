@@ -38,6 +38,7 @@ set encoding=utf-8
 " inoremap [ []<ESC>i
 " inoremap { {<CR>}<ESC>O
 
+" airline
 
 let g:airline_powerline_fonts = 1
 let g:airline_section_y = ""
@@ -123,3 +124,13 @@ let g:coc_snippet_next = '<tab>'
 let g:vimwiki_list = [{'path': '~/Downloads/craft/vimwiki/wiki/', 'path_html': '~/Downloads/craft/vimwiki/html/'}]
 
 autocmd BufRead,BufNewFile *.heex set filetype=html
+
+" Event: autocmd FileType csharp 文件中 set ft=csharp
+autocmd FileType,BufNewFile,BufRead,BufWinEnter,BufEnter *.cs setl et sw=2 sts=2 ts=2
+
+" : is a command
+augroup set ignorecase smartcase
+  autocmd!
+  autocmd CmdLineEnter : set nosmartcase
+  autocmd CmdLineLeave : set smartcase
+augroup END
