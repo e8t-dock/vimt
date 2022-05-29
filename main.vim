@@ -92,9 +92,8 @@ highlight self ctermfg=239
 " let g:ncm2#matcher = 'substrfuzzy'
 
 " Coc
-let $PLAY=$HOME . '/Downloads/minivim'
-let $NVIM_COC_HOME = $PLAY . '/coc'
-let g:coc_config_home = $PLAY
+let $NVIM_COC_HOME = $VIM . '/coc'
+let g:coc_config_home = $VIM
 let g:coc_data_home = $NVIM_COC_HOME
 let g:coc_global_extensions = [
   \ 'coc-tailwindcss',
