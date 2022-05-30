@@ -8,6 +8,13 @@ set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
+" Ctrl + S can cause issues in Unix terminals
+" nnoremap <C-S> :update<cr>
+" inoremap <C-S> <Esc>:update<cr>gi
+nnoremap zz :update<cr>
+inoremap zz <Esc>:update<cr>gi
+
+
 let g:SimpylFold_docstring_preview=1
 
 " proper PEP 8 indentation
