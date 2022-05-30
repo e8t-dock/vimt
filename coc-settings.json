@@ -1,12 +1,5 @@
 {
-  "typescript.suggestionActions.enabled": false,
-  "javascript.suggestionActions.enabled": false,
-  "css.enable": true,
-  "css.lint.unknownAtRules": "ignore",
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
-  "wxss.validate": false,
+  "coc.preferences.diagnostic.virtualText": true,
   "coc.preferences.formatOnSaveFiletypes": [
     /* "dart", */
     /* "html", */
@@ -21,6 +14,12 @@
     /* "markdown" */
     "python"
   ],
+  "css.enable": true,
+  "css.lint.unknownAtRules": "ignore",
+  "css.validate": false,
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+  "elixirLS.dialyzerEnabled": false,
+  "emmet.includeLanguages": {"javascript": "javascriptreact"},
   "eslint.filetypes": [
     "javascript",
     "typescript",
@@ -28,12 +27,16 @@
     "javascriptreact",
     "typescript.tsx"
   ],
-  "coc.preferences.diagnostic.virtualText": true,
-  "html.format.enable": false,
   "html.autoClosingTags": true,
+  "html.format.enable": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.autoClosingTags": true,
+  "less.validate": false,
+  "scss.validate": false,
+  "tailwindCSS.trace.server": "verbose",
   "typescript.suggest.autoImports": true,
-  "elixirLS.dialyzerEnabled": false,
-  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
-  "workspace.ignoredFiletypes": ["markdown", "log", "txt", "help", "asm"]
+  "typescript.suggestionActions.enabled": false,
+  "typescript.autoClosingTags": true,
+  "workspace.ignoredFiletypes": ["markdown", "log", "txt", "help", "asm"],
+  "wxss.validate": false
 }
-

@@ -96,7 +96,6 @@ let $NVIM_COC_HOME = $VIM . '/coc'
 let g:coc_config_home = $VIM
 let g:coc_data_home = $NVIM_COC_HOME
 let g:coc_global_extensions = [
-  \ 'coc-tailwindcss',
   \ 'coc-emmet',
   \ 'coc-css',
   \ 'coc-html',
@@ -105,6 +104,8 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver'
   \]
 
+  " \ 'coc-tailwindcss',
+  
 " coc-snippet
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
