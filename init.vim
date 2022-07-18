@@ -1,5 +1,8 @@
 " Playground
 
+"" setenv VIM $HQ_VIM_HOME
+call setenv('VIM', $HQ_VIM_HOME)
+
 set nu
 
 set nocp

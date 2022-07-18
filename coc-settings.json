@@ -2,7 +2,7 @@
   "coc.preferences.diagnostic.virtualText": true,
   "coc.preferences.formatOnSaveFiletypes": [
     /* "dart", */
-    /* "html", */
+    "html",
     "javascript",
     "typescript",
     "typescriptreact",
@@ -11,7 +11,7 @@
     "typescript.tsx",
     "css",
     "elixir",
-    /* "markdown" */
+    "markdown",
     "python"
   ],
   "css.enable": true,

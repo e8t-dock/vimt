@@ -12,7 +12,11 @@ nnoremap <space> za
 " nnoremap <C-S> :update<cr>
 " inoremap <C-S> <Esc>:update<cr>gi
 nnoremap zz :update<cr>
-inoremap zz <Esc>:update<cr>gi
+inoremap zz <Esc>:update<cr>
+inoremap zx <Esc>:update<cr>gi
+" nnoremap zz <Esc>:CocCommand prettier.formatFile<cr><Esc>:update<cr>
+" inoremap zz <Esc>:CocCommand prettier.formatFile<cr><Esc>:update<cr>
+" inoremap zx <Esc>:CocCommand prettier.formatFile<cr><Esc>:update<cr>gi
 
 
 let g:SimpylFold_docstring_preview=1
