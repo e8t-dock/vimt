@@ -1,3 +1,4 @@
 coc
-tmp
+tmp/*
+!tmp/.gitkeep
 runtime/pack
