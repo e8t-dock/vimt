@@ -2,7 +2,9 @@
 
 # MVIM_HOME=$HQ/config/minivim
 
-MVIM_HOME=$PWD
+# MVIM_HOME=$PWD
+VIM=${HQ_VIM_HOME:-$HOME/HQ/conf/vim/vimt}
+MVIM_HOME=$VIM
 MVIM_PACK=$MVIM_HOME/runtime/pack
 
 # Zsh
